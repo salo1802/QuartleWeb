@@ -1,0 +1,91 @@
+.divUp{
+    font-family: Poppins, sans-serif;
+    margin: 0;
+    width: 100%;
+    height: 50px;
+    background-color: #5CCB9A;
+    align-items: center;
+    justify-content: left;
+    display:flex;
+    flex-direction: row;
+}
+body{
+    font-family: Poppins, sans-serif;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    display:flex;
+    flex-direction: column; 
+}
+
+
+.uptext{
+    margin-left: 60px;
+    color: aliceblue;
+}
+
+
+#user{
+    padding: 4px;
+    background-color: darkcyan;
+   border-radius: 17px;
+    margin-left: 60%;
+}
+
+.logo{
+    margin-left: 50px;
+}
+#userinfo{
+    margin-top: 100px;
+    display:flex;
+    flex-direction: row; 
+}
+#usertexts{
+    color: #041826;
+    margin-left: 30px;
+    display:flex;
+    flex-direction: column; 
+}
+#listaEvents{
+    color: #041826;
+    width: 60%;
+}
+
+
+
+.eventConteiner{
+    background-color: #E5EEF1;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    display:flex;
+    flex-direction: row; 
+}
+.textLeft{
+    flex: 1;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.eventname{
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.eventinfo{
+    margin-top: 5px;
+    margin-bottom: 0;
+    font-size: 20px;
+    font-weight: 300;
+}
+.points{
+    font-size: 18px;
+    font-weight: 700;
+    margin-right: 30px;
+    align-self:flex-end;
+    
+    
+}
