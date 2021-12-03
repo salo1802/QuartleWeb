@@ -9,6 +9,7 @@
         <link rel="icon" type="image/icon" href="/images/logoV.png"/>
     </head>
     <body>
+        
         <div id="eventsDiv" class="divUp">
             <img class="logo" src="/images/logo.png" alt= "logo">
             <h3 id="eventsTxt" class="uptext">Events</h3>
@@ -35,7 +36,41 @@
             <input id = "points" class="input" type="number" placeholder="Insert how many points you will give to the attendants">
         </div>
         <button id="registerBtn">Register this event</button>
+        <div id="body"></div>
+      
+        <div id = "qrcode">
+
+        </div>
 
     </body>
-    <script src="main.js"></script>
+    <script  src="/src/qrcode.min.js"></script>
+    <script>
+        const body = document.getElementById('body');
+        body.style.visibility = "hidden"
+       const div = document.getElementById('qrcode');
+        div.style.visibility = "hidden"
+    let crearQr = (data)=>{
+    
+        
+
+   var qrcode =  new QRCode(div);
+   qrcode.makeCode(data);
+
+   var ok = document.createElement('button');
+   ok.className = "ok"
+    ok.innerHTML = "ok"
+    div.appendChild(ok);
+    body.style.visibility = 'visible'
+    div.style.visibility = 'visible'
+    ok.addEventListener("click", (e,ev)=>{
+        body.style.visibility = "hidden"
+        qrcode.clear();
+        div.style.visibility = "hidden"
+        
+    })
+   
+   
+}
+    </script>
+    <script type = "module" src="newEvent.js"></script>
 </html> 

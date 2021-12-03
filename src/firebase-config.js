@@ -1,11 +1,11 @@
 const firebaseConfig = {
-    apiKey: "AIzaSyD2NCb3ren0ZUB-YQ-kOcc2XKQL3Caf3R0",
-  authDomain: "eco-actividad10.firebaseapp.com",
-  databaseURL: "https://eco-actividad10-default-rtdb.firebaseio.com",
-  projectId: "eco-actividad10",
-  storageBucket: "eco-actividad10.appspot.com",
-  messagingSenderId: "402032649270",
-  appId: "1:402032649270:web:d073835a30d590ebc62497"
+    apiKey: "AIzaSyCmT0hAjgjLuO1-ptK-ebDUGk0NWQXK7Ak",
+    authDomain: "quartle.firebaseapp.com",
+    databaseURL: "https://quartle-default-rtdb.firebaseio.com",
+    projectId: "quartle",
+    storageBucket: "quartle.appspot.com",
+    messagingSenderId: "147245827450",
+    appId: "1:147245827450:web:58493d1eed9bea190182c3"
 };
 
 export function getFirebaseConfig(){
