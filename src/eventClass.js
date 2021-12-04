@@ -12,7 +12,7 @@ render(){
     eventConteiner.className = "eventConteiner";
 
     let textleft = document.createElement('div');
-    textleft.className = "textleft";
+    textleft.className = "textLeft";
 
     let eventName = document.createElement('p');
     eventName.className = "eventname";
@@ -28,7 +28,7 @@ render(){
 
     let eventCapacity = document.createElement('p');
     eventCapacity.className = "eventinfo";
-    eventCapacity.innerHTML = this.event.attendants + "/" + this.event.capacity + "Attendants";
+    eventCapacity.innerHTML = this.event.attendants + "/" + this.event.capacity + "  Attendants";
 
     let eventsPoints = document.createElement('p');
     eventsPoints.className = "points";

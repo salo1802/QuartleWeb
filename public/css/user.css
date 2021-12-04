@@ -49,17 +49,20 @@ body{
 #listaEvents{
     color: #041826;
     width: 60%;
+    
 }
 
 
 
 .eventConteiner{
+    margin-bottom: 40px;
     background-color: #E5EEF1;
     border-radius: 10px;
-    align-items: center;
+    align-items: baseline;
     justify-content: center;
     display:flex;
     flex-direction: row; 
+   
 }
 .textLeft{
     flex: 1;

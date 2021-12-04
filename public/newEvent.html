@@ -63,9 +63,17 @@
     body.style.visibility = 'visible'
     div.style.visibility = 'visible'
     ok.addEventListener("click", (e,ev)=>{
+        document.getElementById("name").value = null
+        document.getElementById('date').value = null
+        document.getElementById('location').value = null
+        document.getElementById('purpose').value = null
+        document.getElementById('goals').value = null
+        document.getElementById('capacity').value = null
+        document.getElementById('points').value = null
         body.style.visibility = "hidden"
         qrcode.clear();
         div.style.visibility = "hidden"
+      
         
     })
    
