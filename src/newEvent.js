@@ -72,8 +72,9 @@ registerBtn.addEventListener("click",(e,ev)=>{
     };
 
     const event2Add = ref(db,userid+"/myEvents/"+eventname.value)
-    update(event2Add, eventNew);
+    
     console.log(eventNew);
-    crearQr(eventNew);
+    crearQr(userid+"/myEvents/"+eventname.value);
+    update(event2Add, eventNew);
 
 });
